@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to bottom right,rgba(155, 233, 107, 0.916),rgb(215, 99, 99));
+}
+.container{
+    
+    display: flex;
+    position: relative;
+    
+
+}
+.player{
+    padding-top: 30px;
+    padding-left: 60px;
+    padding-right: 60px;
+    background-color:rgba(243, 41, 41, 0.404)
+    
+}
+h2{
+    text-align: center;
+}
+.current{
+    margin-top: 40px;
+    background-color: brown;
+    color: white;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+.current p{
+    font-weight: 300;
+    padding: 20px;
+}
+.score{
+    font-size: 30px;
+    font-weight: 500;
+    padding: 10px;
+    text-align: center;
+    
+}
+.total-score{
+    font-size: 30px;
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 500;
+    color: aqua;
+}
+.turn{
+    background-color: rgb(241, 124, 124);
+    border: 1px solid rgb(47, 255, 78);
+}
+
+.dice{
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    top:80px;
+    left: 40%;
+    border-radius: 6px;
+
+}
+.btn{
+    height:30px;
+    border-radius: 5px;
+    padding: 5px;
+    
+}
+.btn--new{
+    position: absolute;
+    top:10px;
+    left: 40%;
+}
+.btn--roll{
+    position: absolute;
+    top:200px;
+    left: 40%;
+}
+.btn--hold{
+    position: absolute;
+    top:240px;
+    left: 44%;
+}
+
+.hidden{
+    display: none;
+}
